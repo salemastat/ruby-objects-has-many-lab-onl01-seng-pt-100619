@@ -1,7 +1,11 @@
 class Post
   
   attr_accessor :author, :title 
-    
+  
+  @@all = [ ]
+  
+  def 
+  
     @@all << self 
   end   
     
